@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document created by Megan Fox on March 26th, 2019*/
+
+body {
+	font-family: Helvetica, Arial;
+	font-size: 15px;
+	line-height: 1.2em;
+	color: #FFFFFF;
+	background-color: #265D69;
+	padding: 40px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+}
+h1 {
+	font-size: 30px;
+	padding: 4px 0;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 1.5em;
+}
+h2 {
+	font-size: 25px;
+	padding: 7px;
+	font-variant: small-caps;
+	letter-spacing: 0.7em;
+	background-color: #85D9EC;
+}
+h3 {
+	font-size: 17px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #85D9EC;
+	padding: 4px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #85D9EC;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #85D9EC;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFFFF;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 10px;
+}
+ol {
+	margin-left: 10px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #85D9EC 1px;
+}
+td {
+	padding: 9px;
+	border: solid #85D9EC 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #85D9EC;
+	text-align: center;
+	padding: 9px;
+	border: solid #FFFFFF 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #17C5E8 1px;
+}
+
+img {
+	border: solid #17C5E8 1px;
+
+}
+
+iframe {
+	border: solid #17C5E8 1px;
+	padding: 8px;
+	margin: 8px;
+}
+
