@@ -1,11 +1,11 @@
 @charset "UTF-8";
-/* CSS Document created by Megan Fox on March 26th, 2019*/
+/* CSS Document created by Megan Fox on April 6th, 2019*/
 
 body {
 	font-family: Helvetica, Arial;
 	font-size: 15px;
 	line-height: 1.2em;
-	color: #FFFFFF;
+	color: #265D69;
 	background-color: #265D69;
 	padding: 40px;
 }
@@ -16,7 +16,7 @@ p, li, td {
 	color: #FFFFFF;
 }
 h1 {
-	font-size: 30px;
+	font-size: 47px;
 	padding: 4px 0;
 	font-variant: small-caps;
 	letter-spacing: .5em;
@@ -39,16 +39,25 @@ h3 {
 	font-variant: small-caps;
 	font-style: italic;
 }
+h4 {
+	font-size: 16px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #85D9EC;
+	padding: 4px 0;
+	font-variant: small;
+}
 
 /* link styles ---------------------------- */
 a:link {
 	font-weight: bold;
-	color: #85D9EC;
+	color: #17C5E8;
 	text-decoration: none;
 }
 a:visited {
 	font-weight: bold;
-	color: #85D9EC;
+	color: #17C5E8;
 	text-decoration: none;
 }
 a:hover {
@@ -94,5 +103,60 @@ iframe {
 	border: solid #17C5E8 1px;
 	padding: 8px;
 	margin: 8px;
+}
+/* DIV STYLES FOR PAGE LAYOUT */
+#container {
+	width: 900px;
+	margin: 0 auto;
+	border: 1px solid #FFF;
+	background-color: #85D9EC;
+	overflow: hidden ;
+	text-align: justify;
+}
+
+#header {
+	width: 900px;
+	margin: 0 auto;
+	border: 5px solid #85D9EC;
+	background-color: #E5F4FF;
+}
+#sidebar {
+	width: 250px;
+	margin:  auto;
+	background-color: #265D69;
+	float: right ;
+	margin-top: 300px;
+	margin-right: 10px;
+	border-radius: 20px;
+}
+#content {
+	width: 600px;
+	margin:  auto;
+	background-color: #85D9EC;
+	overflow: hidden ;
+	float: left;
+	margin-left: 10px;
+}
+#footer {
+	width: 900px;
+	margin:  auto;
+	border: 0px solid #FFF;
+	background-color: #E5F4FF;
+	overflow: hidden ;
+	clear: both;
+}
+#picture {
+	width: 300px;
+	margin: auto;
+	border: px ;
+	overflow: hidden ;
+	float: center
+}
+#table {
+	width: 270px;
+	margin:  auto;
+	background-color: #265D69;
+	overflow: hidden ;
+	float: right ;
 }
 
